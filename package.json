@@ -1,0 +1,47 @@
+{
+  "name": "@astrum-ui/paginate",
+  "version": "1.0.0",
+  "description": "Introducing Astrum-UI/Paginate: A versatile React component for creating paginated lists with ease.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "keywords": [
+    "paginate",
+    "pagination",
+    "react",
+    "component",
+    "react-paginate",
+    "react-component",
+    "ui",
+    "accessible",
+    "accessibility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sagar969/astrum-ui-paginate.git"
+  },
+  "author": "Sagar Mavai <sagarmavai2002@gmail.com> (https://Sagar969.github.io)",
+  "bugs": {
+    "url": "https://github.com/Sagar969/astrum-ui-paginate/issues"
+  },
+  "homepage": "https://github.com/Sagar969/astrum-ui-paginate#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.77",
+    "cssnano": "^6.1.2",
+    "cssnext": "^1.8.5",
+    "postcss": "^8.4.38",
+    "postcss-cssnext": "^3.1.1",
+    "postcss-nested": "^6.0.1",
+    "postcss-simple-vars": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.14.2",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}

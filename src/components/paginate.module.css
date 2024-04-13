@@ -1,0 +1,38 @@
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  color: #444;
+}
+
+.button {
+  width: 25px;
+  height: 25px;
+  border: 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.variant1InputContainer input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: 0;
+  width: 100px;
+}
+
+.noCards {
+  padding: 20px;
+  background: #dadada;
+  color: gray;
+  font-weight: 600;
+  width: fit-content;
+  margin: 20px auto;
+}
